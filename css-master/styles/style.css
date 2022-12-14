@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #96c1f8;
+}
+
+header{
+    height: 100px;
+}
+
+section{
+    background-image:url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: -20px;
+}
+
+footer{
+    height: 250px;
+    background-color: #5ee1e6;
+}
+/*Mon CSS*/
+h1{
+    text-align: center;
+    color: white;
+}
+/*Animation*/
+#bateau{
+    margin-top: 300px;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    /* animation: move 8s forwards; */
+}
+@keyframes move{
+    from{
+        margin-right: 100%;
+        
+    }
+
+    to{
+        margin-left: 50%;
+       
+    }
+}
+/*section*/
+section{
+    color:#80CEE1;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: center;
+}
+section div{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+section div:nth-child(3){
+    color: gray;
+    background-color: black;    
+}
+section div:hover{
+    rotate: 360deg;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+/*footer*/
+footer div{
+    margin: auto; 
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px; 
+}
+strong{
+    font-weight: normal;
+}
+/*Logo*/
+#tresor{
+    cursor: grab;
+    display: block;
+    margin: auto;
+}
+#linkedin{
+    margin: auto;
+    display: block;
+}
+
+
+
+
+
+
